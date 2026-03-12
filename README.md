@@ -1,10 +1,12 @@
 # Metric – Finance Math Tools
 
-Hi, I'm Vusi, a Math of Finance student in Gaborone.
+Hi, I'm Vusi, a Math of Finance student in Gaborone, Botswana.  
+This repository contains Python tools for quantitative finance, starting with the **Black-Scholes option pricer**.
 
-This repo will hold:
-- Python scripts for option pricing, portfolio optimization, etc.
-- Excel models for bond valuation / risk analysis
-- Notes on stochastic calculus, Monte Carlo sims, etc.
+## What's inside
+- `black_scholes.py` → Calculates European call and put option prices using the classic Black-Scholes model (with example output)
 
-Work in progress!
+## How to run
+```bash
+pip install numpy scipy
+python black_scholes.py
